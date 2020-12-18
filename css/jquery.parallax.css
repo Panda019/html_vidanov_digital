@@ -1,0 +1,14 @@
+#port {
+	overflow: hidden;
+	position: relative;
+	height: 1264px;
+	min-width: 1072px;
+	max-width: 1600px;
+}
+.parallax-viewport {
+	position: relative;     /* relative, absolute, fixed */
+	overflow: hidden;
+}
+.parallax-layer {
+	position: absolute;
+}

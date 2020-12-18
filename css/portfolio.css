@@ -1,0 +1,122 @@
+@charset "utf-8";
+.b-portfolio {
+    margin: 0 auto;
+    width: 1032px;
+}
+
+.b-portfolio .title {
+    text-transform: uppercase;
+    padding-top: 80px;
+    font-size: 28px;
+    display: block;
+}
+
+.b-portfolio .title span {
+    font-family: 'Myriad Pro', 'open_sansbold', sans-serif;
+    font-weight: bold;
+}
+
+.b-portfolio .index {
+    margin-top: 128px;
+}
+
+.b-portfolio .index .item {
+    border: 1px dotted #FFFFFF;
+    color: #868E98;
+    display: block;
+    float: left;
+    font-size: 18px;
+    height: 155px;
+    margin-left: 87px;
+    margin-top: -39px;
+    text-decoration: none;
+    transform: rotate(45deg);
+    -ms-transform: rotate(45deg); /* IE 9 */
+    -moz-transform: rotate(45deg);
+    -webkit-transform: rotate(45deg); /* Safari and Chrome */
+    width: 155px;
+}
+
+.b-portfolio .index .thumb {
+    position: relative;
+    overflow: hidden;
+}
+
+.b-portfolio .index .thumb img {
+    left: -42px;
+    position: absolute;
+    top: -28px;
+    transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg); /* IE 9 */
+    -moz-transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg); /* Safari and Chrome */
+}
+
+.b-portfolio .index .thumb:after {
+    content: "";
+    position: absolute;
+    top: -36px;
+    left: -36px;
+    width: 250px;
+    height: 250px;
+    background: inherit;
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg); /* IE 9 */
+}
+
+.b-portfolio .index .break {
+    clear: left;
+    margin-left: 74px;
+}
+
+.b-portfolio .index .intend {
+    clear: left;
+    margin-left: 195px;
+}
+
+.b-portfolio .index p {
+    text-shadow: 0 0 5px rgba(0, 0, 0, 0.7);
+}
+
+.b-portfolio .index .item p {
+    position: relative;
+    line-height: 188px;
+    text-align: center;
+    z-index: 1;
+    -webkit-transform-origin: top left;
+    -moz-transform-origin: top left;
+    -ms-transform-origin: top left;
+    transform-origin: top left;
+    -webkit-transform: rotate(-45deg) translate(-89px, 0);
+    -moz-transform: rotate(-45deg) translate(-89px, 0);
+    -ms-transform: rotate(-45deg) translate(-89px, 0); /* IE 9 */
+    transform: rotate(-45deg) translate(-89px, 0);
+    color: #FFF;
+    text-transform: uppercase;
+    width: 210px;
+}
+
+.b-portfolio .index .item p span {
+    font-weight: bold;
+}
+
+.b-portfolio .index .thumb p {
+    visibility: hidden;
+}
+
+.b-portfolio .index .thumb:hover {
+    background-image: url(../images/magnifier.png);
+    background-position: 103px 145px;
+    background-repeat: no-repeat;
+}
+
+.b-portfolio .index .thumb:hover:after {
+    background-color: #000000;
+    opacity: 0.8;
+}
+
+.b-portfolio .index .item:hover p {
+    visibility: visible;
+}

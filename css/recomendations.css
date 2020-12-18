@@ -1,0 +1,80 @@
+@charset "utf-8";
+.b-client-recomendations {
+    margin: 0 auto;
+    width: 980px;
+    padding-top: 100px;
+}
+
+.b-client-recomendations .title {
+    font-size: 24px;
+    text-transform: uppercase;
+    margin-bottom: 60px;
+}
+
+.b-client-item {
+    width: 245px;
+    height: 350px;
+    background-image: url(../images/bullet-client.png);
+    background-repeat: no-repeat;
+    background-position: center bottom;
+}
+
+.b-client-item:hover {
+    cursor: pointer;
+    background-image: url(../images/bullet-client-hover.png);
+}
+
+.b-client-name {
+    font-size: 14px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 25px;
+}
+
+.b-client-post {
+    margin: 0 auto;
+    margin-top: 10px;
+    font-size: 11px;
+    line-height: 145%;
+    color: rgb(129, 135, 149);
+    text-align: center;
+    width: 190px;
+}
+
+.b-client-recomendation {
+    font-size: 15px;
+    line-height: 120%;
+    color: rgb(61, 68, 85);
+    text-align: center;
+    margin-top: 12px;
+}
+
+.b-pin-client {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 8px solid #FFFFFF;
+    border-radius: 50% 50% 50% 50%;
+    height: 170px;
+    padding: 5px;
+    display: block;
+    width: 170px;
+    margin: 0 auto;
+    -webkit-border-top-left-radius: 96px;
+    -webkit-border-top-right-radius: 96px;
+    -webkit-border-bottom-right-radius: 96px;
+    -webkit-border-bottom-left-radius: 96px;
+}
+
+.b-pin-client img {
+    /* селектор для картинки, которая "внутри" класса avatar */
+    display: block; /* картинка выводится как блок, по ширине будет равен родителю(диву в котором находится) */
+    width: 100%; /* ширина 100% */
+    border: 0; /* граница нулевая */
+    margin: 0; /* внешний отступ отстутствует */
+    border-radius: 50% 50% 50% 50%;
+    -moz-border-radius: 50% 50% 50% 50%;
+    -webkit-border-radius: 50% 50% 50% 50%;
+    -webkit-border-top-left-radius: 85px;
+    -webkit-border-top-right-radius: 85px;
+    -webkit-border-bottom-right-radius: 85px;
+    -webkit-border-bottom-left-radius: 85px;
+}
